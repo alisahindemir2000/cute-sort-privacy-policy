@@ -1,4 +1,3 @@
-```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -116,20 +115,22 @@
     <h2>Privacy Policy</h2>
 
     <div class="meta">
-        <strong>Effective:</strong> September 1, 2026<br>
+        <strong>Effective:</strong> October 9, 2026<br>
         <strong>Publisher:</strong> Cute Games<br>
         <strong>Contact:</strong>
-        <a href="mailto:alisahindemir76@gmail.com">
-            alisahindemir76@gmail.com
+        <a href="mailto:cutegames2000@gmail.com">
+            cutegames2000@gmail.com
         </a>
     </div>
 
     <div class="intro">
         <strong>In short:</strong>
-        Cute Games does not collect, store, or share any personal information.
-        Your level progress is saved only on your own device.
-        The only outside data collection comes from Google AdMob,
-        the ad service used to show ads between levels — explained in full in Section 3.
+        Cute Sort has no accounts and never asks for your name, email address,
+        or contacts. Your saved game stays on your device. To show ads, measure
+        how the game is played, and fix crashes, the game uses Google services
+        &mdash; Google AdMob and Google Firebase &mdash; which automatically
+        collect limited technical and usage data, explained in Sections 3 and 4.
+        We do not sell your data.
     </div>
 
     <div class="toc">
@@ -139,8 +140,10 @@
             <li><a href="#collect">Information We Collect</a></li>
             <li><a href="#device">Information Stored On Your Device</a></li>
             <li><a href="#ads">Advertising &amp; Google AdMob</a></li>
+            <li><a href="#firebase">Analytics, Crash Reports &amp; Google Firebase</a></li>
             <li><a href="#children">Children's Privacy</a></li>
             <li><a href="#sharing">Data Sharing</a></li>
+            <li><a href="#retention">Data Retention</a></li>
             <li><a href="#choices">Your Choices</a></li>
             <li><a href="#security">Security</a></li>
             <li><a href="#changes">Changes to This Policy</a></li>
@@ -152,42 +155,48 @@
     <h2 id="collect">01 · Information We Collect</h2>
 
     <p>
-        Cute Games does not collect any personal information through Cute Sort.
-        The game has no account or sign-in, does not ask for your name,
-        email address, or contacts, and does not access your camera,
-        microphone, or location.
+        Cute Sort has no account or sign-in. It does not ask for your name,
+        email address, or contacts, and it does not access your camera,
+        microphone, photos, or precise (GPS) location.
+    </p>
+
+    <p>
+        The game does use the Google services described in Sections 3 and 4,
+        which automatically collect technical and usage data such as device
+        identifiers, device information, approximate location derived from your
+        IP address, and how you play. This data is not linked to your name or
+        email address.
     </p>
 
 
     <h2 id="device">02 · Information Stored On Your Device</h2>
 
     <p>
-        Cute Sort saves your current level and the exact arrangement of beads
-        locally on your device, so the game can resume where you left off.
+        Cute Sort saves your current level, remaining hints, and the exact
+        arrangement of beads locally on your device, so the game can resume
+        where you left off.
     </p>
 
     <p>
-        This information stays on your device. It is never transmitted to us
-        or to anyone else, and it is deleted automatically when you uninstall
-        the app or clear its app data.
+        This saved game stays on your device and is deleted automatically when
+        you uninstall the app or clear its app data.
     </p>
 
 
     <h2 id="ads">03 · Advertising &amp; Google AdMob</h2>
 
     <p>
-        Cute Sort shows ads between levels using
-        <strong>Google AdMob</strong>, Google's mobile advertising service.
-        To choose and deliver ads, AdMob and its partner networks may
-        automatically collect technical information such as your advertising
-        identifier, device type, general location derived from your IP address,
-        and how you interact with ads.
+        Cute Sort shows ads between levels, and optional video ads to skip a
+        level, using <strong>Google AdMob</strong>, Google's mobile advertising
+        service. To choose, deliver, and measure ads and to prevent fraud,
+        AdMob and its partner networks may automatically collect information
+        such as your advertising identifier, device type and settings, general
+        location derived from your IP address, and how you interact with ads.
     </p>
 
     <p>
-        We do not receive, see, or store this information ourselves —
-        it is collected and processed directly by Google, under Google's
-        own privacy policy, not ours.
+        This information is collected and processed by Google under Google's
+        own privacy policy. We only see aggregated ad performance reports.
     </p>
 
     <p>
@@ -206,92 +215,193 @@
     </p>
 
 
-    <h2 id="children">04 · Children's Privacy</h2>
+    <h2 id="firebase">04 · Analytics, Crash Reports &amp; Google Firebase</h2>
 
     <p>
-        Cute Sort is not directed at children under 13, and we do not knowingly
-        collect personal information from anyone, of any age — as explained
-        in Section 1, we don't collect personal information at all.
+        Cute Sort uses <strong>Google Firebase</strong> to understand how the
+        game is played, to find and fix crashes, and to adjust game settings
+        without an app update. Firebase is provided by Google, which processes
+        this data on our behalf.
+    </p>
+
+    <h3>Google Analytics for Firebase</h3>
+    <ul>
+        <li>
+            <strong>Gameplay events:</strong> when a level starts, is completed,
+            or is skipped, the level number, how many hints were used, and how
+            long the level took.
+        </li>
+        <li>
+            <strong>App usage:</strong> app opens, sessions, screen views,
+            engagement time, and ad impressions.
+        </li>
+        <li>
+            <strong>Device information:</strong> device model, operating
+            system version, language, app version, and country/region derived
+            from your IP address.
+        </li>
+        <li>
+            <strong>Identifiers:</strong> a random app-instance ID created by
+            Firebase, and your device's advertising identifier.
+        </li>
+    </ul>
+
+    <h3>Firebase Crashlytics</h3>
+    <ul>
+        <li>
+            If the game crashes or hits an error, a crash report is sent. It
+            contains technical details of the error, device and operating
+            system information, the level you were on, and a random
+            installation ID used to count how many players are affected.
+        </li>
+    </ul>
+
+    <h3>Firebase Remote Config</h3>
+    <ul>
+        <li>
+            The game downloads settings (for example, how many hints each level
+            gives, or how often ads appear). To do this it sends basic
+            technical information such as app version, operating system
+            version, language, country, time zone, and a random installation ID.
+        </li>
+    </ul>
+
+    <p>
+        We use this data only to improve the game, balance level difficulty,
+        fix bugs, and measure ad performance. We see it in aggregated reports
+        and do not use it to identify you personally.
     </p>
 
     <p>
-        If you believe a child has provided us with information, contact us
-        at the address in Section 9 and we will look into it.
+        <strong>Firebase Privacy &amp; Security:</strong><br>
+        <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">
+            https://firebase.google.com/support/privacy
+        </a>
     </p>
 
 
-    <h2 id="sharing">05 · Data Sharing</h2>
+    <h2 id="children">05 · Children's Privacy</h2>
 
     <p>
-        We do not sell, rent, or share any data, because we do not collect any.
-        The only outside party involved in Cute Sort is Google AdMob,
-        described in Section 3, which operates under its own privacy policy.
+        Cute Sort is not directed at children under 13 (or the minimum age
+        required in your country), and we do not knowingly collect personal
+        information from children.
+    </p>
+
+    <p>
+        If you believe a child has used the game and you would like their data
+        removed, contact us at the address in Section 11 and we will help.
     </p>
 
 
-    <h2 id="choices">06 · Your Choices</h2>
+    <h2 id="sharing">06 · Data Sharing</h2>
+
+    <p>
+        We do not sell or rent your data. Data is shared only with:
+    </p>
+    <ul>
+        <li>
+            <strong>Google AdMob</strong> and its advertising partners, to show
+            and measure ads (Section 3);
+        </li>
+        <li>
+            <strong>Google Firebase</strong>, which processes analytics, crash,
+            and configuration data on our behalf (Section 4);
+        </li>
+        <li>
+            authorities, if required by law.
+        </li>
+    </ul>
+
+
+    <h2 id="retention">07 · Data Retention</h2>
 
     <ul>
         <li>
-            <strong>Reset your progress</strong> —
+            <strong>Saved game:</strong> kept on your device until you uninstall
+            the app or clear its data.
+        </li>
+        <li>
+            <strong>Analytics data:</strong> kept by Google Analytics for the
+            retention period configured for the game, at most 14 months, and
+            then deleted automatically.
+        </li>
+        <li>
+            <strong>Crash reports:</strong> kept by Firebase Crashlytics for
+            90 days.
+        </li>
+        <li>
+            <strong>Advertising data:</strong> kept by Google according to
+            Google's own retention policies.
+        </li>
+    </ul>
+
+
+    <h2 id="choices">08 · Your Choices</h2>
+
+    <ul>
+        <li>
+            <strong>Reset your progress</strong> &mdash;
             uninstalling Cute Sort removes all locally saved data with it.
+            Reinstalling creates new random app-instance and installation IDs.
         </li>
 
         <li>
-            <strong>Manage ad personalization</strong> —
-            adjust this any time from your device's ad settings, or at
+            <strong>Manage ad personalization</strong> &mdash;
+            you can reset or delete your advertising ID at any time
+            in your device settings (Android: <em>Settings &rarr; Privacy &rarr; Ads</em>)
+            or adjust ad personalization at
             <a href="https://adssettings.google.com/"
                target="_blank"
                rel="noopener">
                 Google's Ads Settings
             </a>.
         </li>
+
+        <li>
+            <strong>Request deletion</strong> &mdash;
+            you can ask us to delete analytics data related to your device by
+            writing to the address in Section 11. Because we do not know your
+            name or email address, we may ask for details that help us find
+            the data (for example, the date and device you played on).
+        </li>
     </ul>
 
+
+    <h2 id="security">09 · Security</h2>
+
     <p>
-        Because we hold no personal data about you, there is nothing on our
-        side to access, correct, or delete — but you're always welcome to
-        write to us with a question.
+        We do not run our own servers. Data sent to Google AdMob and Google
+        Firebase is encrypted in transit (HTTPS/TLS) and stored on Google's
+        infrastructure. Your saved game stays local to your device, protected
+        by your device's own security.
     </p>
 
 
-    <h2 id="security">07 · Security</h2>
+    <h2 id="changes">10 · Changes to This Policy</h2>
 
     <p>
-        Cute Sort does not transmit or store personal data on any server
-        we operate — we don't run one.
-        Your saved progress stays local to your device, protected by your
-        device's own security.
-    </p>
-
-
-    <h2 id="changes">08 · Changes to This Policy</h2>
-
-    <p>
-        If Cute Sort's features change in a way that affects this policy —
-        for example, adding a new service — we will update this page and
+        If Cute Sort's features change in a way that affects this policy &mdash;
+        for example, adding a new service &mdash; we will update this page and
         its effective date above.
     </p>
 
 
-    <h2 id="contact">09 · Contact Us</h2>
+    <h2 id="contact">11 · Contact Us</h2>
 
     <p>
         Questions about this policy or Cute Sort?
         Reach Cute Games at
-        <a href="mailto:cutegames2000@gmail.com">
-            alisahindemir76@gmail.com
-        </a>.
+        <a href="mailto:cutegames2000@gmail.com">cutegames2000@gmail.com</a>.
     </p>
 
 
     <footer>
         <strong>Cute Sort · Cute Games</strong><br>
-        Last updated September 1, 2026
+        Last updated October 9, 2026
     </footer>
 
 </div>
 
 </body>
 </html>
-```
